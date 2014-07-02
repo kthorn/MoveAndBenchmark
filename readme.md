@@ -1,6 +1,6 @@
 # MoveAndBenchmark
 
-This is a simple python script for doing the moving files between a source disk and a destination disk, deleting files older than a specified date on the destination disk, and benchmarking the write speed of the source disk. We use it for keeping filesystems clean on our data acquisition computers where we have a small, fast, SSD array and a large, slow, hard drive array. Every night this script:
+This is a simple python script for doing the moving files between a source disk and a destination disk, deleting files older than a specified date on the destination disk, and benchmarking the write speed of the source disk. We use it for keeping filesystems clean on our data acquisition computers where we have a small, fast, SSD array and a large, slow, hard drive array. This script:
 
  - Deletes files older than X (default: 30) days on destination
  - (Optional) Moves files from source to destination
