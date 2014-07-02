@@ -4,12 +4,11 @@
 Code for moving data from SSD to HD
 On run:
    * Create new folder on destination HD named today's date
-   * Traverse over source SSD; for each folder, create new zipfile with
-     same name on destination; zipfile contains all contents of folder
-   * Delete source folder
+   * Traverse over source SSD and move files to new folder
+   * Delete source files
    
    * Log number of GB deleted from SSD
-   * If possible, benchmark SSD write speed
+   * Benchmark SSD write speed
     
 Created on Sun Feb 16 14:30:28 2014
 
